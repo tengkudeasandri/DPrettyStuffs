@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+         <!-- Masukkin font -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+     <!-- Sambungin ke CSS -->
+      <link rel="stylesheet" href="navbararticle.css">
+</head>
+
+<body style="background-image: url(images/background\ gif\ 1.gif); background-repeat: no-repeat; background-attachment: fixed; background-size: 100%; margin-left: 40px; margin-right: 40px;"></body>
+
+    <!-- Header -->
+    <header class="header">
+        
+        <section class="flex">
+
+            <a href="#home" class="logo">D Pretty Stuffs</a>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="navbarabout.html">About</a>
+                <a href="navbarshop.html">Shop</a>
+                <a href="navbararticle.html" class="active">Article</a>
+                <a href="navbarcontact.html">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <div id="user-btn" class="fas fa-user"></div>
+            </div>
+
+        </section>
+        
+    </header>
+
+    <!-- Buat pengguna log in dan sign in -->
+<div class="user-account" id="user-account">
+
+    <section>
+
+        <div id="close-account"><span>close</span></div>
+
+     <div class="user">
+        <p><span>you are not logged in now!</span></p>
+     </div>
+
+     <br>
+
+     <div class="flex">
+
+        <form action="" method="post">
+            <h3>login now</h3>
+            <input type="email" name="email" required class="box" placeholder="enter your email" maxlength="50">
+            <input type="password" name="pass" required class="box" placeholder="enter your password" maxlength="20">
+            <input type="submit" value="login now" name="login" class="btn">
+        </form>
+
+        <form action="" method="post">
+            <h3>register now</h3>
+            <input type="text" name="name" required class="box" placeholder="enter your name" maxlength="20">
+            <input type="email" name="email" required class="box" placeholder="enter your email" maxlength="50">
+            <input type="password" name="pass" required class="box" placeholder="enter your password" maxlength="20">
+            <input type="password" name="cpass" required class="box" placeholder="confirm your password" maxlength="20">
+            <input type="submit" value="register now" name="register" class="btn">
+        </form>
+
+
+     </div>
+
+    </section>
+
+</div>
+    
+
+
+<div class="product-section-container">
+        <br>
+        <br>
+        <h1>Take a look!</h1>
+        <br>
+        <span class="product-section-description">
+        <h3>Berikut beberapa artikel mengenai aksesoris remaja wanita supaya kamu bisa tetap update nih sama style Gen Z yang kekinian! </h3>
+        </span>
+</div>
+
+
+<!-- Kolom Artikel -->
+    <main class="blog-container">
+        <h2 class="section-title">
+        
+            <div class="blog-list">
+                <div class="blog-card">
+                    <img src="images/phone strap dps.jpg" alt="">
+                    <h3>5 Aksesoris Fashion Favorit Saat Ini, Sudah Punya Koleksinya?</h3>
+                    <p>Aksesoris pada pakaian bikin penampilan lebih cantik dan manis. Tapi tidak sembarangan dalam memilih fashion item aksesoris buat kamu yang ingin tampil modis dan elegan. Pastikan kamu memilih model aksesoris kekinian yang chic. </p>
+                    <a href="https://www.idntimes.com/life/women/5-aksesoris-fashion-favorit-saat-ini-sudah-punya-koleksinya-01-18bmw-s1bvyr" class="read-more" target="_blank">Read more</a>
+                </div>
+
+                <div class="blog-card">
+                    <img src="images/gelang dps.jpg" alt="">
+                    <h3>Mengenal Gelang Manik-Manik, Aksesoris untuk Remaja</h3>
+                    <p>Gelang manik-manik bisa jadi media buat kamu mengekspresikan diri. Misalnya, kalau kamu suka warna-warna cerah, pilih gelang dengan manik-manik warna-warni. Atau, kalau kamu lebih suka gaya minimalis, pilih yang warnanya soft dan simpel. Gelang ini bisa bikin penampilanmu jadi lebih hidup!</p>
+                    <a href="https://www.kompasiana.com/andreamaira0961/66fd1b4eed64150b6d228353/mengenal-gelang-manik-manik-aksesoris-untuk-remaja" class="read-more" target="_blank">Read more</a>
+                </div>
+                
+                <div class="blog-card">
+                    <img src="images/jedai dps.jpg" alt="">
+                    <h3>Upgrade Penampilanmu! Ini Aksesoris yang Lagi Kekinian</h3>
+                    <p>Aksesoris dari kepala hingga kaki, menunjukkan kepribadian dan gaya hidup seseorang selain menjadi pelengkap. Jika Anda ingin tetap modis tanpa mengubah lemari pakaian Anda, ini adalah beberapa aksesoris modern yang akan meningkatkan gayamu.</p>
+                    <a href="https://beritajatim.com/upgrade-penampilanmu-ini-aksesoris-yang-lagi-kekinian" class="read-more" target="_blank">Read more</a>
+                </div>
+
+            </div>
+
+
+        </h2>
+
+    </main>
+
+
+
+
+
+
+    <!-- Sambungin ke Javascript -->
+    <script src="navbararticle.js"></script>
+</body>
+
+
+<!-- Footer Web -->
+
+<footer>
+    <!-- Logo Contact Person dan Media Sosial -->
+    <div id="footer-top">
+        <img src="images/Dps logo transparan.png" alt="Pink Footer" width="120px" height="110px">
+        <div id="footer-socials-wrapper">
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <span>+62 812-3456-7890</span>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fas fa-phone"></i></a>
+                <span>WhatsApp</span>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <span>Instagram</span>
+            </div>
+        </div>
+    </div>
+    <div id="footer-bottom">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="navbarabout.html">About</a>
+            </li>
+            <li>
+                <a href="navbarshop.html">Shop</a>
+            </li>
+            <li>
+                <a href="navbararticle.html">Article</a>
+            </li>
+            <li>
+                <a href="navbarcontact.html">Contact</a>
+            </li>
+        </ul>
+        <p>
+            Copyright © 2025 D Pretty Stuffs rights reserved
+        </p>
+    </div>
+</footer>
+</html>
